@@ -1,0 +1,204 @@
+repo_name: mollypi/chatgpt-retrieval-plugin
+report_id: a4163f4a51c558073954bc4e976f1d91
+repo_type: Public
+timestamp: '2023-11-15T05:30:20+00:00'
+requested_by: isafulf
+provider: github
+branch: main
+detected_tools_count: 14
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: pyproject.toml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+- name: Qdrant
+  description: Open-source Vector Search Engine and Vector Database written in Rust
+  website_url: https://qdrant.tech/
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/48298/default_d234d62c02c7862d4384fbbf0bcbb94ff723df73.jpg
+  detection_source: examples/docker/qdrant/docker-compose.yaml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+- name: Weaviate
+  description: An open-source vector search engine
+  website_url: https://weaviate.io/
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/48640/default_e449cca14683994294f8d6a9d2d22791e7e8448b.jpg
+  detection_source: tests/datastore/providers/weaviate/docker-compose.yml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+- name: PyPDF2
+  description: PDF toolkit
+  package_url: https://pypi.org/PyPDF2
+  version: 3.0.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20065/default_bb49fb0188726b8922387d8bb6e9b2cd0c3c0ea9.png
+  detection_source_url: pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+  vulnerabilities:
+  - name: pypdf and PyPDF2 possible Infinite Loop when a comment isn't followed by
+      a character
+    cve_id: CVE-2023-36464
+    cve_url: https://github.com/advisories/GHSA-4vvm-4w3v-6mr8
+    detected_date: Jul 1
+    severity: moderate
+    first_patched: 
+- name: arrow
+  description: Better dates &amp; times for Python
+  package_url: https://pypi.org/arrow
+  version: 1.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19891/default_87fc2af3f2409064833512bb6fc5b04443a2e6aa.png
+  detection_source_url: poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+- name: fastapi
+  description: FastAPI framework
+  package_url: https://pypi.org/fastapi
+  version: 0.92.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20520/default_ded6d17aa418fbd05ff28b85345c77ab878c6b37.png
+  detection_source_url: poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+- name: numpy
+  description: NumPy is the fundamental package for array computing with Python
+  package_url: https://pypi.org/numpy
+  version: 1.24.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19828/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-24 01:22:58.000000000 Z
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/pydantic
+  version: 1.10.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/python-dotenv
+  version: 0.21.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+- name: redis
+  description: Python client for Redis key-value store
+  package_url: https://pypi.org/redis
+  version: 4.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19855/default_f812320c62a72187e593516984ac4eb92fb43040.png
+  detection_source_url: poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
+  vulnerabilities:
+  - name: redis-py Race Condition due to incomplete fix
+    cve_id: CVE-2023-28859
+    cve_url: https://github.com/advisories/GHSA-8fww-64cx-x8p5
+    detected_date: Mar 28
+    severity: moderate
+    first_patched: 4.5.4
+  - name: redis-py Race Condition vulnerability
+    cve_id: CVE-2023-28858
+    cve_url: https://github.com/advisories/GHSA-24wv-mv5m-xv4h
+    detected_date: Mar 28
+    severity: low
+    first_patched: 4.5.3
+- name: tenacity
+  description: Retry code until it succeeds
+  package_url: https://pypi.org/tenacity
+  version: 8.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20027/default_fd02050783f95269bfcc5c4d11f1c75dd423cd1d.png
+  detection_source_url: poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: isafulf
+  last_updated_on: 2023-03-23 06:26:57.000000000 Z
