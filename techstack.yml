@@ -1,7 +1,8 @@
 repo_name: mollypi/chatgpt-retrieval-plugin
 report_id: a4163f4a51c558073954bc4e976f1d91
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-15T05:30:20+00:00'
+timestamp: '2024-01-05T08:41:47+00:00'
 requested_by: isafulf
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/mollypi/chatgpt-retrieval-plugin
   detection_source: Repo Metadata
 - name: Docker
   description: Enterprise Container Platform for High-Velocity Innovation.
@@ -26,6 +28,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/mollypi/chatgpt-retrieval-plugin
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -35,6 +38,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/mollypi/chatgpt-retrieval-plugin
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -44,6 +48,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/mollypi/chatgpt-retrieval-plugin/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: isafulf
   last_updated_on: 2023-03-23 06:26:57.000000000 Z
@@ -55,6 +60,7 @@ tools:
   category: Application Utilities
   sub_category: Search Engines
   image_url: https://img.stackshare.io/service/48298/default_d234d62c02c7862d4384fbbf0bcbb94ff723df73.jpg
+  detection_source_url: https://github.com/mollypi/chatgpt-retrieval-plugin/blob/main/examples/docker/qdrant/docker-compose.yaml
   detection_source: examples/docker/qdrant/docker-compose.yaml
   last_updated_by: isafulf
   last_updated_on: 2023-03-23 06:26:57.000000000 Z
@@ -66,12 +72,13 @@ tools:
   category: Application Utilities
   sub_category: Search Engines
   image_url: https://img.stackshare.io/service/48640/default_e449cca14683994294f8d6a9d2d22791e7e8448b.jpg
+  detection_source_url: https://github.com/mollypi/chatgpt-retrieval-plugin/blob/main/tests/datastore/providers/weaviate/docker-compose.yml
   detection_source: tests/datastore/providers/weaviate/docker-compose.yml
   last_updated_by: isafulf
   last_updated_on: 2023-03-23 06:26:57.000000000 Z
 - name: PyPDF2
   description: PDF toolkit
-  package_url: https://pypi.org/PyPDF2
+  package_url: https://pypi.org/project/PyPDF2
   version: 3.0.1
   license: Other
   open_source: true
@@ -79,7 +86,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20065/default_bb49fb0188726b8922387d8bb6e9b2cd0c3c0ea9.png
-  detection_source_url: pyproject.toml
+  detection_source_url: https://github.com/mollypi/chatgpt-retrieval-plugin/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: isafulf
   last_updated_on: 2023-03-23 06:26:57.000000000 Z
@@ -93,7 +100,7 @@ tools:
     first_patched: 
 - name: arrow
   description: Better dates &amp; times for Python
-  package_url: https://pypi.org/arrow
+  package_url: https://pypi.org/project/arrow
   version: 1.2.3
   license: Apache-2.0
   open_source: true
@@ -101,13 +108,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19891/default_87fc2af3f2409064833512bb6fc5b04443a2e6aa.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/mollypi/chatgpt-retrieval-plugin/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: isafulf
   last_updated_on: 2023-03-23 06:26:57.000000000 Z
 - name: fastapi
   description: FastAPI framework
-  package_url: https://pypi.org/fastapi
+  package_url: https://pypi.org/project/fastapi
   version: 0.92.0
   license: MIT
   open_source: true
@@ -115,13 +122,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20520/default_ded6d17aa418fbd05ff28b85345c77ab878c6b37.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/mollypi/chatgpt-retrieval-plugin/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: isafulf
   last_updated_on: 2023-03-23 06:26:57.000000000 Z
 - name: numpy
   description: NumPy is the fundamental package for array computing with Python
-  package_url: https://pypi.org/numpy
+  package_url: https://pypi.org/project/numpy
   version: 1.24.2
   license: BSD-3-Clause
   open_source: true
@@ -129,13 +136,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19828/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/mollypi/chatgpt-retrieval-plugin/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: isafulf
   last_updated_on: 2023-03-24 01:22:58.000000000 Z
 - name: pydantic
   description: Data validation and settings management using python 3.6 type hinting
-  package_url: https://pypi.org/pydantic
+  package_url: https://pypi.org/project/pydantic
   version: 1.10.7
   license: MIT
   open_source: true
@@ -143,13 +150,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/mollypi/chatgpt-retrieval-plugin/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: isafulf
   last_updated_on: 2023-03-23 06:26:57.000000000 Z
 - name: python-dotenv
   description: Add .env support to your django/flask apps in development and deployments
-  package_url: https://pypi.org/python-dotenv
+  package_url: https://pypi.org/project/python-dotenv
   version: 0.21.1
   license: BSD-3-Clause
   open_source: true
@@ -157,13 +164,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/mollypi/chatgpt-retrieval-plugin/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: isafulf
   last_updated_on: 2023-03-23 06:26:57.000000000 Z
 - name: redis
   description: Python client for Redis key-value store
-  package_url: https://pypi.org/redis
+  package_url: https://pypi.org/project/redis
   version: 4.5.1
   license: MIT
   open_source: true
@@ -171,7 +178,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19855/default_f812320c62a72187e593516984ac4eb92fb43040.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/mollypi/chatgpt-retrieval-plugin/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: isafulf
   last_updated_on: 2023-03-23 06:26:57.000000000 Z
@@ -190,7 +197,7 @@ tools:
     first_patched: 4.5.3
 - name: tenacity
   description: Retry code until it succeeds
-  package_url: https://pypi.org/tenacity
+  package_url: https://pypi.org/project/tenacity
   version: 8.2.2
   license: Apache-2.0
   open_source: true
@@ -198,7 +205,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20027/default_fd02050783f95269bfcc5c4d11f1c75dd423cd1d.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/mollypi/chatgpt-retrieval-plugin/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: isafulf
   last_updated_on: 2023-03-23 06:26:57.000000000 Z
