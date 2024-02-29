@@ -4,9 +4,9 @@
 mollypi/chatgpt-retrieval-plugin is built on the following main stack:
 
 - [Python](https://www.python.org) – Languages
+- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 - [Qdrant](https://qdrant.tech/) – Search Engines
 - [Weaviate](https://weaviate.io/) – Search Engines
-- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
 
@@ -17,9 +17,9 @@ Full tech stack [here](/techstack.md)
 mollypi/chatgpt-retrieval-plugin is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 - <img width='25' height='25' src='https://img.stackshare.io/service/48298/default_d234d62c02c7862d4384fbbf0bcbb94ff723df73.jpg' alt='Qdrant'/> [Qdrant](https://qdrant.tech/) – Search Engines
 - <img width='25' height='25' src='https://img.stackshare.io/service/48640/default_e449cca14683994294f8d6a9d2d22791e7e8448b.jpg' alt='Weaviate'/> [Weaviate](https://weaviate.io/) – Search Engines
-- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
 
@@ -30,7 +30,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [mollypi/chatgpt-retrieval-plugin](https://github.com/mollypi/chatgpt-retrieval-plugin)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|14<br/>Tools used|01/05/24 <br/>Report generated|
+|14<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -106,7 +106,7 @@ Full tech stack [here](/techstack.md)
 |:------|:------|:------|:------|:------|:------|
 |[PyPDF2](https://pypi.org/project/PyPDF2)|v3.0.1|03/23/23|isafulf |Other|[CVE-2023-36464](https://github.com/advisories/GHSA-4vvm-4w3v-6mr8) (Moderate)|
 |[arrow](https://pypi.org/project/arrow)|v1.2.3|03/23/23|isafulf |Apache-2.0|N/A|
-|[fastapi](https://pypi.org/project/fastapi)|v0.92.0|03/23/23|isafulf |MIT|N/A|
+|[fastapi](https://pypi.org/project/fastapi)|v0.92.0|03/23/23|isafulf |MIT|[](https://github.com/advisories/GHSA-qf9m-vfgh-m389) (High)<br/>[CVE-2024-24762](https://github.com/advisories/GHSA-2jv5-9r88-3w3p) (High)|
 |[numpy](https://pypi.org/project/numpy)|v1.24.2|03/24/23|isafulf |BSD-3-Clause|N/A|
 |[pydantic](https://pypi.org/project/pydantic)|v1.10.7|03/23/23|isafulf |MIT|N/A|
 |[python-dotenv](https://pypi.org/project/python-dotenv)|v0.21.1|03/23/23|isafulf |BSD-3-Clause|N/A|
